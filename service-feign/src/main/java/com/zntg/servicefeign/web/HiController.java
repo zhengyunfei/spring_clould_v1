@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @program: zntg_clould_v1
- * @description:
+ * @description:在Web层的controller层，对外暴露一个”/hi”的API接口，通过上面定义的Feign客户端SchedualServiceHi 来消费服务。代码如下：
  * @author: zhengyunfei
  * @create: 2018-07-03 11:08
  **/
