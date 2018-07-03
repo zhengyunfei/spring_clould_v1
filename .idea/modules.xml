@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_service_h2/eureka_service_h2.iml" filepath="$PROJECT_DIR$/eureka_service_h2/eureka_service_h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_service_hi/eureka_service_hi.iml" filepath="$PROJECT_DIR$/eureka_service_hi/eureka_service_hi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zntg_clould_v1.iml" filepath="$PROJECT_DIR$/zntg_clould_v1.iml" />
+    </modules>
+  </component>
+</project>
