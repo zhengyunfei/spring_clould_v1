@@ -13,6 +13,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+
 /**
 * @Description: SpringCloud教程 | 第三篇: 服务消费者（Feign）
  * 用法:在程序的启动类ServiceFeignApplication ，加上@EnableFeignClients注解开启Feign的功能
@@ -23,6 +25,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+@EnableHystrix//加@EnableHystrix注解开启Hystrix
 public class ServiceFeignApplication {
 
 	public static void main(String[] args) {
