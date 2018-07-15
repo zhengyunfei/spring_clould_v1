@@ -30,6 +30,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableHystrix
+@EnableHystrixDashboard
 public class ServiceRibbonApplication {
 
 	public static void main(String[] args) {

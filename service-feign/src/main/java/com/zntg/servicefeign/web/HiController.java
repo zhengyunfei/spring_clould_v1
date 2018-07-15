@@ -27,4 +27,5 @@ public class HiController {
     public String sayHi(@RequestParam String name){
         return schedualServiceHi.sayHiFromClientOne(name);
     }
+
 }
