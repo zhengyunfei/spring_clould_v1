@@ -11,6 +11,7 @@
         <module name="eureka_service_hi" />
         <module name="service-feign" />
         <module name="service-ribbon" />
+        <module name="spring_clould_v1" />
         <module name="zntg_clould_v1" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="eureka_service_hi" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="spring_clould_v1" target="1.5" />
       <module name="zntg_clould_v1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
